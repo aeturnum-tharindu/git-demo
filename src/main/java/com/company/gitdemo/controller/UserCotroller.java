@@ -11,4 +11,8 @@ public class UserCotroller {
 
     }
 
+    private void getUser() {
+
+    }
+
 }
