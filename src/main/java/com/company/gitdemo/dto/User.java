@@ -8,11 +8,19 @@ public class User {
 	private String name;
 	private String uid;
 	
-    private User() {
+	private User() {
         System.out.println("Private Constructor !");
     }
 
     public void m() {
         System.out.println("Method Called !");
     }
+    
+    public String getUid() {
+		return uid;
+	}
+
+	public void setUid(String uid) {
+		this.uid = uid;
+	}
 }
