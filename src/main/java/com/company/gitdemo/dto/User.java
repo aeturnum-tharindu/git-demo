@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 public class User {
 
 	private String name;
+	
 	private String uid;
 	
     private User() {
@@ -15,4 +16,13 @@ public class User {
     public void m() {
         System.out.println("Method Called !");
     }
+    
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 }
