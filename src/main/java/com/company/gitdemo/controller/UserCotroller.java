@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserCotroller {
 
+    /**
+     getUsers details
+    */
     @PostMapping("/user/getUsers")
     public void getUsers() {
 
